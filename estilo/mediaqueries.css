@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+    body{
+        background-image: linear-gradient(to top, #88a2f2b9,#2E5559);
+    }
+    
+    .container{
+        width: 90vw;
+        height: 400px;
+        transition: width 1s height 1s;
+        transition-timing-function: ease;
+    }
+
+
+.container .imagem{
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-position:  center bottom;
+}
+
+
+.container .formulario form{
+    float:right;
+    width: 65%;
+}  }
+
+@media screen and (min-width:992px){
+
+    body{
+        background-image: linear-gradient(to top, #88a2f2b9,#2E5559);
+    }
+    
+    .container{
+       width:920px;
+       height: 400px;
+    }
+    .container .imagem{
+        float: left;
+        width: 47%;
+        height: 100vh;
+        background-position:  center bottom;
+    }
+    
+    .container .formulario form{
+        float:right;
+        width: 50%;
+    }
+
+
+}

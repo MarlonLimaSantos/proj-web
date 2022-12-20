@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/mediaqueries.css">
+   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imagem">
+
+        </div>
+        <div class="formulario">
+                <div class="login"><b>Login</b></div>
+                <div class="login">Seja bem-vindo(a) preencha os campos abaixo para realizar login na plataforma.</div>
+                <form action="login.php" method="post" autocomplete="on">
+                <div class="myinput">
+                    <label for="user"><i class="fa-sharp fa-solid fa-user"></i></label>
+                    <input type="text" name="iname" id="user" required maxlength="20" placeholder="digite seu nome" autocomplete="username">
+                </div>
+                <div class="myinput">
+                    <label for="senha"><i class="fa-sharp fa-solid fa-key"></i></label>
+                    <input type="password" name="isenha" id="senha" required minlength="8" maxlength="20" placeholder="digite sua senha" autocomplete="current-password">
+                </div>
+                <div id="btn">
+                    <input href="#" type="submit" value="Confirmar">
+                </div>
+                <div id="linksenha">Esqueceu sua senha?<a href="#"> click aqui.</a></div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

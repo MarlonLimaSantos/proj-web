@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#2E5559;
+    position: relative;
+}
+
+.container{
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#a1bebb;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.566);
+    }
+
+.container .imagem{
+    background-image: url(../imagens/pexels-kaique-rocha-116021.jpg) ;
+    background-size: cover;
+    height: 220px;
+    display: block;
+
+}
+.formulario{
+    padding: 15px;
+}
+
+.container .formulario .login{
+    text-align: center;
+    display: block;
+
+   
+}
+
+.formulario .myinput{
+    background-color:#2E5559;
+    border-radius: 12px;
+    margin: 10px 0px;
+    height: 26px;
+   
+  }
+
+  
+.container .formulario label> i{
+   color: #020B0D;
+   width:20px ;
+   height: 22px;
+   margin-left:10px;
+   
+}
+
+.container .formulario .myinput input{
+    margin: 0px;
+    border-radius: 12px;
+    width:calc(100% - 30px);
+   border: none;
+    height: 26px;
+    float: right;
+    
+}
+.myinput input::placeholder{
+    color: #a8c4c1;
+    padding-left: 5px;}
+
+.formulario #btn{
+    margin-top: 20px;
+}
+.formulario input[type=submit]{
+    display: block;
+    padding: 0px;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    background-color:#2E5559 ;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+   
+}   
+
+.formulario #linksenha {
+    display: block;
+   text-align: center;
+   font-size: 0.8em;
+   margin-top: 10px;
+}
